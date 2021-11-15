@@ -1,0 +1,147 @@
+* {
+    box-sizing: border-box;
+}
+
+#exo {
+    color: white;
+}
+
+h1 {
+    padding-left: 30px;
+    font-size: 40px;
+    font-weight: bolder;
+}
+
+body {
+    background-color: rosybrown;
+    margin: 0;
+}
+
+header,
+#nav1,
+#ul1,
+li {
+    display: flex;
+}
+
+header {
+    margin-bottom: 5px;
+    background-color: maroon;
+    /* background-size: 100px; */
+}
+
+#nav1 li:hover {
+    background-color: orangered;
+}
+
+#nav1 {
+    font-size: large;
+}
+
+li {
+    justify-content: space-around;
+    margin-left: 15px;
+    padding: 15px;
+    list-style: none;
+    
+}
+
+a {
+    text-decoration: none;
+    list-style: none;
+    color: #fff;
+    font-weight: bold;
+    text-align: justify;
+    
+}
+
+
+
+
+section {
+   display: flex;
+   margin-top: 25px;
+   margin-left: 15px;
+   padding-left: 15px;
+}
+
+/* j'ai du mal a bien justifier les elements du nav2  */
+
+aside {
+    display: flex;
+    background-color: maroon;
+    border-radius: 10px;
+    padding-right: 60px;
+    /* width: fit-content;
+    block-size: fit-content; */
+    
+    
+}
+
+
+
+
+#ul2 li {
+    display: flex;
+    align-items: justify;
+    display: inline-block;
+}
+
+#nav2 li  {
+    display: block;
+    margin: 0 auto;
+    padding: 15px 15px 15px 0;
+    text-align: justify;
+    justify-items: justify;
+    
+
+}
+
+#nav2 li:hover {
+    background-color: orange;
+}
+
+
+
+
+
+article {
+    margin-left: 25px;
+    margin-right: 50px;
+    padding-left: 10px;
+    padding-right: 40px;
+    border: 10px solid maroon;
+    border-radius: 10px;
+    background-color: white;
+    /* width: 100px; */
+}
+
+article p {
+    font-size: 20px;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+}
+
+p {
+    text-align: justify;
+    text-rendering: justify;
+}
+
+
+footer,
+#ul3,
+li {
+    display: flex;
+    justify-content: space-around;
+    padding-left: 15px;
+    
+}
+
+#ul3 li {
+    border-right: 5px solid maroon;
+}
+
+/* la bordure droite du dernier link refuse de s'effacer  */
+
+#noBorder {
+    border: none;
+}
